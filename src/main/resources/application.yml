@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  application:
+    name: auth
+  datasource:
+    url: jdbc:postgresql://localhost:5432/georchestra
+    username: georchestra
+    password: georchestra
+    hikari:
+      schema: users
+  flyway:
+    enabled: true
+    validate-on-migrate: true
+    default-schema: users
+

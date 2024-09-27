@@ -1,0 +1,9 @@
+spring.application.name= auth
+spring.datasource.url= jdbc:postgresql://localhost:5432/georchestra
+spring.datasource.username= georchestra
+spring.datasource.password= georchestra
+spring.datasource.hikari.schema= users
+spring.flyway.enabled= true
+spring.flyway.validate-on-migrate= true
+spring.flyway.default-schema= users
+

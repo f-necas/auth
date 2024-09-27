@@ -1,0 +1,11 @@
+services:
+
+  database:
+    image: georchestra/database:latest
+    ports:
+      - "5432:5432"
+
+  ldap:
+    image: georchestra/ldap:latest
+    ports:
+      - "389:389"
